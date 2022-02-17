@@ -1,0 +1,9 @@
+#ad {
+    background-color: grey;
+    font-style: italic;
+    text-decoration: underline;
+    height: 100px;
+    width: 1400px;
+    margin: auto;
+    border: solid black 3px;
+}
