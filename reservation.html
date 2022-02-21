@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="./style/reservation.css">
 </head>
 <body>
+
+  <!-- menu navigation -->
     <header>
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <div class="container-fluid">
@@ -63,21 +65,31 @@
             </div>
           </nav>
     </header>
-    <div class="d-flex" style="height: 100rem;">
-    <div class="contenair d-flex  flex-column justify-content-around">
-      <div class="row">
-          <h1 class=" d-flex justify-content-center">OUPS! Il semblerait que vous n'ayez pas de réservation!</h1>
-      </div>
-      <div class="row ">
-          <div class="col d-flex justify-content-end">
-              <button type="submit" class="btn btn-primary text-center my-2">Voir nos offres</button>
+
+
+
+<div class="d-flex  flex-column align-self-center">
+      <!-- tableau grid -->
+      <div class="contenair" style="height: 50rem;" id="jeSuisNul">
+        <div class="row">
+          <!-- style conteneur -->
+            <h1 class=" d-flex justify-content-center ">OUPS! Il semblerait que vous n'ayez pas de réservation!</h1>
           </div>
-          <div class="col d-flex justify-content-start">
-              <button type="submit" class="btn btn-primary text-center my-2">Je ne trouve pas ma réservation</button>
-          </div>
+        <div class="row">
+            <div class="col d-flex justify-content-end">
+                <button type="submit" class="btn btn-primary text-center my-2">Voir nos offres</button>
+            </div>
+            <div class="col d-flex justify-content-start">
+                <button type="submit" class="btn btn-primary text-center my-2">Je ne trouve pas ma réservation</button>
+            </div>
+        </div>
       </div>
     </div>
-  </div>
+
+
+
+
+  <!-- footer -->
     <footer>
         <div class="footer container-fluid bg-dark p-5">
             <div class="footer-left">
