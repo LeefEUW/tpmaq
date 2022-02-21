@@ -1,5 +1,5 @@
 #info{
-    border-radius: 25px;
+    border-radius: 5px;
     border: solid 1px;
 }
 h1{
@@ -9,3 +9,11 @@ h1{
 #dropdownMenuButton1{
     border: solid 1px;
 }
+
+footer{
+    position:absolute;
+    bottom:0;
+    width:100%;
+    padding-top:50px;
+    height:50px;
+    }
