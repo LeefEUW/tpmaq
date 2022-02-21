@@ -54,12 +54,14 @@
 .text-card {
     border-left: solid black 1px;
     height: 200px;
-    padding-left: 20px
+    padding-left: 20px;
+    padding-top: 14px;
 }
 
 .text-card-2 {
     border-right: solid black 1px;
     padding-left: 20px;
+    padding-top: 14px;
     height: 200px;
 }
 
