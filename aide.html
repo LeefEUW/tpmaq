@@ -65,37 +65,140 @@
     
 
 
-<!-- barre de recherche  -->
 
-<div class="container">
-  <div class="row">
-    <div class="col">
-      <p class="m-2">Besoin d'aide ?</p>
-
-    </div>
-    <div class="col">
-      <!-- search -->
+    <div class="container d-flex justify-content-around bg-secondary rounded shadow p-3 mb-5 rounded">
+      <!-- TEXTE BESOIN D AIDE -->
+      <p class="m-2 text-white align-self-center">Besoin d'aide ?</p>
+      <!-- CHAMP RECHERCHE -->
       <nav class="navbar navbar-light">
-        <div class="container-fluid">
           <form class="d-flex">
-            <input class="form-control m-2" type="search" placeholder="Search" aria-label="Search">
+              <input class="form-control m-2 text" type="search" placeholder="Search" aria-label="Search">
           </form>
-        </div>
       </nav>
+      <!-- BOUTON -->
+      <button class="btn btn-outline-primary m-2 bg-primary text-white align-self-center" type="submit" style="height: 25%;">Search</button>
+  </div>
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- div pour faire le flex -->
+  <div class="d-flex justify-content-evenly">
+
+    <!-- premier contianer gauche -->
+    <div class="">
+
+      <!-- bloc questions fréquentes -->
+
+<div class="container p-5">
+  <div class="col">
+
+
+    <div class="row">
+      <h2 class="bg-secondary text-white rounded shadow p-3 mb-5 rounded text-center">Questions fréquentes :</h2>
+    </div>
+    <div class="row">
+      <div class="card m-2 p-2 rounded d-flex flex-row bg-secondary text-white rounded shadow p-3 mb-5 rounded" style="width: 30rem;">
+        <img src="img/masqueCovid.png" class="card-img-top" alt="Logo masque covid">
+        <div class="card-body fle">
+          <h5 class="card-title">Info Covid</h5>
+          <p class="card-text">Vous trouverez dans cette section les questions fréquentes concernant le covid.</p>
+          <a href="#" class="btn btn-primary">Consulter l'article</a>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="card m-2 p-2 rounded d-flex flex-row bg-secondary text-white rounded shadow p-3 mb-5 rounded" style="width: 30rem;">
+        <img src="img/avionArticle.png" class="card-img-top" alt="logo avion">
+        <div class="card-body">
+          <h5 class="card-title">Avant mon départ</h5>
+          <p class="card-text">Vous trouverez dans cette section les questions fréquentes par rapport au départ.</p>
+          <a href="#" class="btn btn-primary">Consulter l'article</a>
+        </div>
+      </div>
 
     </div>
-    <!-- bouton -->
-    <div class="col">
-      <button class="btn btn-outline-success m-2" type="submit">Search</button>
+    <div class="row">
+      <div class="card m-2 p-2 rounded d-flex flex-row bg-secondary text-white rounded shadow p-3 mb-5 rounded" style="width: 30rem;">
+        <img src="img/paiementArticle.png" class="card-img-top" alt="logo paiement">
+        <div class="card-body">
+          <h5 class="card-title">Paiement</h5>
+          <p class="card-text">Vous trouverez dans cette section les questions fréquentes concernant le paiement.</p>
+          <a href="#" class="btn btn-primary">Consulter l'article</a>
+        </div>
+      </div>
+
     </div>
 
   </div>
 
 </div>
 
+<!-- fin partie gauche -->
+</div>
+
+<!-- partie à mettre à droite -->
+<div class="align-self-start p-5">
+
+<div class="container">
+  <div class="row">
+      <div class="col">
+          <!--  titre besoin d'aide -->
+          <div class="p-3 mb-2 bg-secondary text-white rounded bg-secondary text-white rounded shadow p-3 mb-5 rounded" >
+              <h2>Besoin d'aide supplémentaire</h2>
+            </div>
+      </div>
+  </div>
 
 
+  <div class="row">
+      <div class="col-12">
+          <!-- formulaire  -->
+<form class="bg-secondary text-white rounded bg-secondary text-white rounded shadow p-3 mb-5 rounded">
+  <h2>Formulaire de contact: </h2>
+  <div class="row mb-3">
+    <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
+    <div class="col-sm-10">
+      <input type="email" class="form-control" id="inputEmail3" placeholder="jean.claude@vandamme.caramail" style="width: 100%;" style="height: 25%;">
+    </div>
+  </div>
+  <div class="row mb-3">
+    <label for="inputPassword3" class="col-sm-2 col-form-label">Téléphone</label>
+    <div class="col-sm-10">
+      <input type="tel" class="form-control" id="inputPassword3" placeholder="05.44.58.79.84" style="width: 50%;" style="height: 25%;">
+    </div>
+  </div>
+  <fieldset class="row mb-3">
 
+  </fieldset>
+  <div class="row mb-3 d-flex">
+    <div class="col d-flex justify-content-start">
+        <textarea class="w-100" name="" id="" cols="30" rows="10" placeholder="merci de nous envoyer un petit message"></textarea>
+    </div>
+  </div>
+  <button type="submit" class="btn btn-primary">Envoyer</button>
+</form>
+      </div>
+  </div>
+</div>
+
+  </div>
+
+<!-- fin partie droite -->
+</div>
 
 
 
